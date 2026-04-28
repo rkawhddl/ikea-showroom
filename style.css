@@ -1,0 +1,765 @@
+.title{
+	text-align: center;
+	font-size: 340%;
+}
+
+body {
+  background-color: #eef3f6;
+
+  background-image: 
+    radial-gradient(rgba(0,0,0,0.08) 1px, transparent 1px),
+    radial-gradient(rgba(0,0,0,0.08) 1px, transparent 1px);
+
+  background-position: 0 0, 12px 12px;
+  background-size: 24px 24px;
+}
+
+article{
+	display: flex;
+	justify-content:center ;
+	align-items: center;
+}
+
+.a{
+	/*background-color: red;*/
+	left: 0%;
+	width: 20%;
+	height: 100%;
+	position: absolute;
+}
+
+.clock{
+	background-color: #9fb0bb;
+	width: 185px;
+	height: 185px;
+	left: 30%;
+	position: absolute;
+	border-radius: 50%;
+	/*clip-path: circle(43.1% at 50% 50%);*/
+	border-color: #5f6366;
+	border-style: solid;
+	border-width: 10px;
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+.trash{
+	color:whitesmoke;
+	background-color: #24282B;
+	width: 50%;
+	height: 25%;
+	left: 7%;
+	bottom: 0%;
+	position: absolute;
+}
+
+.b{
+	/*background-color: yellow;*/
+	width: 30%;
+	height: 100%;
+	left: 20%;
+	position: absolute;
+}
+
+.line1{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: black;
+	top: 60.1%;
+}
+
+.line2{
+	position: absolute;
+	width: 1%;
+	height: 39.9%;
+	background: black;
+	bottom: 0%;
+}
+
+.line3{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: black;
+	top: 80.1%;
+}
+
+.line4{
+	position: absolute;
+	width: 1%;
+	height: 81.9%;
+	background: black;
+	bottom: 0%;
+	right: -1%;
+}
+
+.painting{
+	color:black;
+	background-color: whitesmoke;
+	width: 45%;
+	height: 40%;
+	top: 18%;
+	right: 5%;
+	position: absolute;
+	border-color: #24282B;
+	border-style: solid;
+	border-width: 10px;
+}
+
+.draw{
+	color:white;
+	background-color: #36436f;
+	width: 30%;
+	height: 33%;
+	top: 23%;
+	right: 14%;
+	position: absolute;
+	text-align: center;
+}
+
+.plant{
+	background-color: #628b35;
+  width: 35%;
+  height: 15%;
+  bottom: 40%;
+  left: 5%;
+  position: absolute;
+  border-radius: 50% 50% 20% 20%; 
+}
+
+.light{
+	background-color: #ffe745;
+	width: 45%;
+	height: 10%;
+	bottom: 40%;
+	right: 7%;
+	z-index: 99;
+	position: absolute;
+	/*clip-path: ellipse(50% 35% at 50% 49%);*/
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-radius: 50%;
+  
+}
+
+.light2{
+	background-color: #ffe745;
+	width: 45%;
+	height: 10%;
+	bottom: 40%;
+	right: 7%;
+	z-index: 99;
+	position: absolute;
+	/*clip-path: ellipse(50% 35% at 50% 49%);*/
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-radius: 50%;
+	/*z-index: -1;*/
+  filter: blur(12px);
+  opacity: 50%;
+}
+
+.book1{
+	color: whitesmoke;
+	background-color: #24282B;
+	width: 33%;
+	height: 15%;
+	bottom: 20%;
+	left: 5%;
+	position: absolute;
+}
+
+.book1-1{
+	position: absolute;
+  bottom: 25%;
+  left: 7.5%;
+  width: 28%;
+  height: 1px;
+  background: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.4);
+}
+
+.book1-2{
+	position: absolute;
+  bottom: 30%;
+  left: 7.5%;
+  width: 28%;
+  height: 1px;
+  background: rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.4);
+}
+
+.book2{
+	background-color: #fbfaf2;
+	width: 13%;
+	height: 11%;
+	bottom: 20%;
+	left: 47%;
+	position: absolute;
+	border-color: rgba(0,0,0,0.3);
+	border-style: solid;
+	border-width: 1px;
+}
+
+.book3{
+	color: whitesmoke;
+	background-color: #24282B;
+	width: 15%;
+	height: 14%;
+	bottom: 20%;
+	right: 23%;
+	position: absolute;
+}
+
+.book4{
+	background-color: #D65A31;
+	width: 15%;
+	height: 17%;
+	bottom: 20%;
+	right: 6%;
+	position: absolute;
+
+}
+
+.box1{
+	/*background-color: #bde4f4;*/
+	width: 34%;
+	height: 15%;
+	bottom: 0%;
+	left: 5%;
+	position: absolute;
+	/*opacity: 80%;*/
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx1{
+	color:#bde4f4;
+	background-color:#bde4f4 ;
+	width: 38%;
+	bottom: 14%;
+	left: 3%;
+	position: absolute;
+	/*opacity: 80%;*/
+	height: 2%;
+}
+
+.box2{
+	/*background-color: #bde4f4;*/
+	width: 24%;
+	height: 15%;
+	bottom: 0%;
+	right: 32%;
+	position: absolute;
+	/*opacity: 80%;*/
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx2{
+	color:#bde4f4;
+	background-color: #bde4f4;
+	width: 28%;
+	bottom: 14%;
+	right: 30%;
+	position: absolute;
+	height: 2%;
+}
+
+.box3{
+	/*background-color: #bde4f4;*/
+	width: 24%;
+	height: 15%;
+	bottom: 0%;
+	right: 3%;
+	position: absolute;
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx3{
+	color:#bde4f4;
+	background-color: #bde4f4;
+	width: 28%;
+	bottom: 14%;
+	right: 1%;
+	position: absolute;
+	height: 2%;
+}
+
+.c{
+	/*background-color: green;*/
+	width: 30%;
+	height: 100%;
+	right: 20%;
+	position: absolute;
+}
+
+.line5{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: black;
+	top: 60.1%;
+}
+
+.line6{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: black;
+	top: 66.2%;
+}
+
+.line7{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: black;
+	top: 80.1%;
+}
+
+.line8{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: black;
+	top: 40.1%;
+}
+
+.line9{
+	position: absolute;
+	width: 100%;
+	height: 3px;
+	background: black;
+	top: 18.1%;
+}
+
+.line10{
+	position: absolute;
+	width: 1%;
+	height: 81.9%;
+	background: black;
+	bottom: 0%;
+	right: -1%;
+}
+
+.box4{
+	background-color: #bde4f4;
+	width: 40%;
+	height: 18%;
+	top: 0%;
+	left: 8%;
+	position: absolute;
+	opacity: 80%;
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx4{
+	color:#bde4f4;
+	background-color:#bde4f4 ;
+	width: 44%;
+	top: 0%;
+	left: 6%;
+	position: absolute;
+	/*opacity: 80%;*/
+	height: 2%;
+
+}
+
+.box5{
+	background-color: #bde4f4;
+	width: 37%;
+	height: 18%;
+	top: 0%;
+	right: 8%;
+	position: absolute;
+	opacity: 80%;
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx5{
+	color:#bde4f4;
+	background-color:#bde4f4 ;
+	width: 41%;
+	top: 0%;
+	right: 6%;
+	position: absolute;
+	/*opacity: 80%;*/
+	height: 2%;
+}
+
+.minilight{
+	background-color: #ffe745;
+	width: 20%;
+	height: 7%;
+	top: 18.5%;
+	left: 0%;
+	position: absolute;
+	clip-path: polygon(100% 0, 100% 50%, 80% 99%, 20% 100%, 0 50%, 0 0);
+	border-top-left-radius:30%;
+	border-top-right-radius:30%;
+}
+
+.minilight1{
+	background-color: #ffe745;
+	width: 20%;
+	height: 10%;
+	top: 18%;
+	left: 0%;
+	z-index: 99;
+	position: absolute;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	border-radius: 50%;
+  filter: blur(12px);
+  opacity: 50%;
+}
+
+.bottle1{
+	/*background-color: #b3b7ba;*/
+	width: 15%;
+	height: 12%;
+	top: 28%;
+	left: 10%;
+	position: absolute;
+	clip-path: polygon(13% 0, 87% 0, 100% 100%, 0% 100%);
+	border-radius: 15%;
+	background: linear-gradient( to bottom, #b3b7ba 0%, #9da3a6 100%);
+
+}
+
+.bottle2{
+	/*background-color: #b3b7ba;*/
+	width: 15%;
+	height: 10%;
+	top: 30%;
+	left: 30%;
+	position: absolute;
+	background: linear-gradient( to bottom, #b3b7ba 0%, #9da3a6 100%);
+}
+
+.speakerw{
+	color: black;
+	background-color: #fbfaf2;
+	/*radial-gradient(#000 1px, transparent 1px),*/
+	width: 20%;
+	height: 16%;
+	right: 27%;
+	top: 23.8%;
+	position: absolute;
+	border-color: rgba(0,0,0,0.3);
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+
+}
+
+.speakerb{
+	color: white;
+	background-color: #24282B;
+	width: 18%;
+	height: 14%;
+	right: 5%;
+	top: 26%;
+	position: absolute;
+	border-top-left-radius:50%;
+	border-top-right-radius:50%;
+	background-image: radial-gradient(#30363b 2px, transparent 1px);
+  background-size: 8px 8px;
+  text-align: center;
+}
+
+.glass{
+	background-color: #c7d3db;
+	width: 15%;
+	height: 10%;
+	left: 12%;
+	bottom: 41.5%;
+	position: absolute;
+	clip-path: polygon(0 0, 100% 0, 83% 100%, 17% 100%);
+	/*opacity: 80%;*/
+	background: rgba(199,211,219,0.5);
+  backdrop-filter: blur(4px);
+}
+
+.wine{
+	background-color: #c7d3db;
+	width: 15%;
+	height: 15%;
+	left: 30%;
+	bottom: 41.5%;
+	position: absolute;
+	opacity: 80%;
+}
+
+.plate1{
+	background-color: #6c6d74;
+	width: 40%;
+	left: 10%;
+	bottom: 40%;
+	position: absolute;
+	border-radius: 40%;
+	z-index: -1;
+	border-color: black;
+	border-style: solid;
+	border-width: 1.5px;
+}
+
+.glass2{
+	width: 15%;
+	height: 12%;
+	right: 10%;
+	bottom: 41.5%;
+	position: absolute;
+	clip-path: polygon(0 0, 100% 0, 83% 100%, 17% 100%);
+	/*opacity: 80%;*/
+	background: rgba(199,211,219,0.5);
+  backdrop-filter: blur(4px);
+  /*border-radius: 20px;*/
+  outline: 1px solid #567c8d;
+}
+
+.whisky{
+	background-color: #c7d3db;
+	width: 15%;
+	height: 14%;
+	right: 26.5%;
+	bottom: 41.5%;
+	position: absolute;
+	opacity: 80%;
+}
+
+.plate2{
+	background-color: #6c6d74;
+	width: 40%;
+	right: 5%;
+	bottom: 40%;
+	position: absolute;
+	border-radius: 40%;
+	z-index: -1;
+	border-color: black;
+	border-style: solid;
+	border-width: 1.5px;
+}
+
+.book5{
+	background-color: #fbfaf2;
+	width: 30%;
+	height: 2%;
+	left: 14%;
+	bottom: 34%;
+	position: absolute;
+	border-color: rgba(0,0,0,0.3);
+	border-style: solid;
+	border-width: 1px;
+}
+
+.book6{
+	background-color: #fbfaf2;
+	width: 30%;
+	height: 2%;
+	right: 10%;
+	bottom: 34%;
+	position: absolute;
+	border-color: rgba(0,0,0,0.3);
+	border-style: solid;
+	border-width: 1px;
+}
+
+.book7{
+	background-color: #fbfaf2;
+	width: 30%;
+	height: 10%;
+	left: 14%;
+	bottom: 20%;
+	position: absolute;
+	border-color: rgba(0,0,0,0.3);
+	border-style: solid;
+	border-width: 1px;
+}
+
+.book7-1{
+	position: absolute;
+  bottom: 27.5%;
+  left: 17.5%;
+  width: 23%;
+  height: 1px;
+  background: rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.3);
+}
+
+.book7-2{
+	position: absolute;
+  bottom: 23.5%;
+  left: 17.5%;
+  width: 23%;
+  height: 1px;
+  background: rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.3);
+}
+
+.book8{
+	background-color: #D65A31;
+	width: 30%;
+	height: 6%;
+	right: 10% ;
+	bottom: 20%;
+	position: absolute;
+}
+
+.book8-1{
+	position: absolute;
+  bottom: 23%;
+  right: 13%;
+  width: 23%;
+  height: 1px;
+  background: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.5);
+  z-index: 1;
+}
+
+.book9{
+	color: whitesmoke;
+	background-color: #24282B;
+	width: 20%;
+	height: 3%;
+	right: 15%;
+	bottom: 26%;
+	position: absolute;
+}
+
+.box6{
+	/*background-color: #bde4f4;*/
+	width: 34%;
+	height: 15%;
+	bottom: 0%;
+	left: 5%;
+	position: absolute;
+	/*opacity: 80%;*/
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx6{
+	color:#bde4f4;
+	background-color:#bde4f4 ;
+	width: 38%;
+	bottom: 14%;
+	left: 3%;
+	position: absolute;
+	/*opacity: 80%;*/
+	height: 2%;
+}
+
+.box7{
+	/*background-color: #bde4f4;*/
+	width: 24%;
+	height: 15%;
+	bottom: 0%;
+	right: 32%;
+	position: absolute;
+	/*opacity: 80%;*/
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx7{
+	color:#bde4f4;
+	background-color: #bde4f4;
+	width: 28%;
+	bottom: 14%;
+	right: 30%;
+	position: absolute;
+	height: 2%;
+}
+
+.box8{
+	/*background-color: #bde4f4;*/
+	width: 24%;
+	height: 15%;
+	bottom: 0%;
+	right: 3%;
+	position: absolute;
+	/*opacity: 80%;*/
+	background: linear-gradient( to bottom, #bde4f4,#7fa7b6);
+}
+
+.boxx8{
+	color:#bde4f4;
+	background-color: #bde4f4;
+	width: 28%;
+	bottom: 14%;
+	right: 1%;
+	position: absolute;
+	height: 2%;
+}
+
+.d{
+	/*background-color: violet;*/
+	width: 20%;
+	height: 100%;
+	right: 0%;
+	position:absolute;
+}
+
+.bag{
+	background-color: lemonchiffon;
+	width: 30%;
+	height: 25%;
+	bottom: 25%;
+	position: absolute;
+	left: 1.5%;
+	box-shadow: 0 8px 10px rgba(160, 160, 140, 0.25);
+	border-color: rgba(0,0,0,0.3);
+	border-style: solid;
+	border-width: 1px;
+}
+
+.standlight{
+	background-color: #ffe745;
+	width: 45%;
+	height: 20%;
+	top: 35%;
+	right: 10%;
+	position: absolute;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.standlight2{
+	background-color: #ffe745;
+	width: 50%;
+	height: 30%;
+	top: 30%;
+	right: 9%;
+	z-index: 99;
+	position: absolute;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	/*z-index: -1;*/
+	border-radius: 50%;
+  filter: blur(20px);
+  opacity: 45%;
+}
+
+.line{
+	background-color: #24282B;
+	width: 1%;
+	height: 45%;
+	bottom: 3%;
+	right: 32%;
+	position: absolute;
+	z-index: -1;
+}
+
+.bottom{
+	color:#24282B;
+	background-color: #24282B;
+	width: 40%;
+	height: 3%;
+	bottom: 0%;
+	right: 13%;
+	position: absolute;
+	border-top-left-radius: 80%;
+	border-top-right-radius: 80%;
+}
